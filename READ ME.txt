@@ -1,0 +1,31 @@
+
+Hi There!
+
+-- For Design Favicon Project(Due Jun 19) --
+
+Still some pages are under construction, but favicon part for this website is done!
+
+If you look closer, you could see my initials on Panda's nose and mouse(AW)! :)
+
+
+-- For HTML/CSS Country Project (Due Jun25)--
+
+My website contain follows:
+1.Main nav bar on every pages
+2.Table included
+3.More than 2 images
+4.Custom non-web-safe-font(Google font)
+5.A separate credits page on footer
+6.Responsive(Break point:720), readable min 320px wide to 1920 wide
+7.Tested by validators,with minor causions of "Consider using the h1 element as a top-level heading only"
+
+
+Please let me know if you have any questions!
+Thank you.
+
+Aya Watanabe(Student ID:A00966882)
+
+
+"HTML/CSS-Level1-Project01-Name"
+
+email to Micheal
