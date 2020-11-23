@@ -18,6 +18,7 @@ img {
 body {
     margin: 0;
     font-family: lato;
+    background-color:#3b6978;
 }
 
 @media (min-width: 320px){ /* START for Common size*/
@@ -42,8 +43,9 @@ table {
 
 /* Wrapper Styles */
 .wrapper {
-    max-width: 2150px;
+    max-width: 1690px;
     margin: 0 auto;
+    background-color:white;
 }
 
 /* Header styles */
@@ -54,7 +56,8 @@ header a {
 }
 
 header h1 {
-    font-size: 2em;
+    font-size: 2.5em;
+    padding-left:15px;
 }
 
 .top-bar {
@@ -288,6 +291,7 @@ main{
 
 .table{
     margin:30px 0;
+    padding:0 15px;
 }
 
 .table tr:nth-child(3n) td {
@@ -384,10 +388,16 @@ td{
     font-size:20px;
    text-align:center;
  }
-
+ 
  .mystery-1 button, .mystery-2 button, .mystery-3 button{
     background-color:rgb(202, 50, 100);
     font-size:1.5em;
+    border-style: none;
+ }
+
+ .mystery-1 button:hover, .mystery-2 button:hover, .mystery-3 button:hover{
+    background-color:rgb(202, 50, 100);
+    font-size:1.6em;
     border-style: none;
  }
 
@@ -405,7 +415,7 @@ footer {
 
 footer .credits, 
 footer .contact{
-padding:10px;
+padding:10px 15px;
 }
 
 footer ul{
@@ -444,7 +454,7 @@ footer ul{
 
     /* Home Page */
     .main-section{
-        max-width:850px;
+        max-width:1000px;
         margin:0 auto;
     }
     .article-contents{
