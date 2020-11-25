@@ -240,11 +240,7 @@ main{
 
 .questions-container{
     margin-bottom:20px;
-    
-}
-
-.questions-container h1, .questions-container p{
-    padding-left:15px;
+    padding:0 15px;
 }
 
 .questions-container h1{
@@ -253,10 +249,35 @@ main{
     font-size:2em;
 }
 
-.q-1>h1, .q-2>h1, .q-3>h1{
+.question-items h1{
     background-color:#5C9FA6;
     color:white;
+    text-align:center;
+    padding:10px 0;
+    text-transform: uppercase;
 }
+
+.question{
+    position:relative;
+    border-bottom:1px solid lightgray;
+}
+
+.question h4{
+    margin:0;
+    padding:5px 0;
+}
+
+.question span{
+    position:absolute;
+    top:0;
+    right:5px;
+    font-size:1.5em;
+}
+
+.answer{
+    display:none;
+}
+
 
 /* Search Page */
 .dictionary{
@@ -425,7 +446,7 @@ footer ul{
 }
 
 /* Media Queries */  /* START for PC size (720px)*/
-@media (min-width: 720px) and (max-width:1920px){
+@media (min-width: 780px) and (max-width:1920px){
 
     /*Header*/
 
@@ -484,12 +505,16 @@ footer ul{
     }
 
     .instructor-container figure{
-        margin:0 30px;
+        margin:0 auto;
     }
 
     .instructor-item{
         width:33%;
         margin-bottom:0;
+    }
+
+    .question h4{
+        font-size:1.5em;
     }
 
     /*Search page*/
@@ -511,7 +536,6 @@ footer ul{
         padding:20px 20px 40px;
     }
 
-
     .mystery-1 .m-contents, .mystery-2 .m-contents,.mystery-3 .m-contents{
         display:flex;
         flex-direction: column;
@@ -521,7 +545,6 @@ footer ul{
     .mystery-1 figure, .mystery-2 figure, .mystery-3 figure{
         margin:0;
         padding:0;
-        
     } 
 
     .mystery-1 p, .mystery-2 p,.mystery-3 p{
