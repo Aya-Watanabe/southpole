@@ -26,7 +26,6 @@ $(function() {
          $answer.slideDown();
         // Change text from "+" to "-"
         $(this).children('span').text('－');
-        
       }
     });
   });
